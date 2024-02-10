@@ -1,0 +1,214 @@
+html { 
+	background: url(background6/maskbg.jpg) no-repeat center center fixed; 
+	background-size: cover;
+  backdrop-filter: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 50px 15px rgb(0, 0, 0);
+  height: 100%;
+  backdrop-filter: blur(10px);
+    }
+  /* PROFILE SECTION 2 */
+  .profilesection {      /*second one */
+    background-color: rgba(94, 93, 93, 0.313); /* Black partially transparent background */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    border-color: rgba(124, 124, 124, 0.4);
+    border-width: 10px;
+    border-radius: 8%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    padding-top:80px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px #e7e7e7;
+    resize: none;
+  }
+
+  .profile-grid {
+    display: flex;
+    flex-direction: column;
+    resize: none;
+  }
+  .profile-name {
+    font-family: 'Protest Strike';
+    font-size: 50px;
+    margin-top: -8px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .verification-box {
+    display: inline-block;
+    
+  }
+  .verification {
+    height: 40px;
+    width: 40px;
+    
+  }
+  
+  .profile-title {
+    font-family: 'Protest Riot';
+    margin-top: -50px;
+    font-size: 25px;
+    margin-bottom: -17px;
+    color: rgba(255, 255, 255, 0.804);
+  }
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+    border:solid #ffffff;
+    margin-top: -165px;
+    margin-left: 39px;
+    box-shadow: 0 0 5px 5px #e7e7e7;
+    position: absolute;
+  }
+  
+  .profile-info {
+    font-family: 'Kanit';
+    padding-top: 20px;
+    font-size: 18px;
+    margin-bottom: -83px;
+    resize: none;
+    height: 200px;
+    width: 800px;
+  }
+
+  /* Style the text */
+  .buttons {
+    background-color: rgba(152, 151, 151, 0.313); /* Black partially transparent background */
+    display: flex;
+    flex-direction: row;
+    row-gap: 81px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #ffffff;
+    border-color: rgba(124, 124, 124, 0.4);
+    border-width: 10px;
+    border-radius: 8%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px #ffffff;
+    
+  }
+ 
+  
+ /* CASHAPP BUTTON*/
+ .cashappbutton {
+  background-color: rgba(0, 0, 0, 0.258);
+  border-radius: 8px;
+  padding: 50px 15px 16px 15px;
+  border-color: rgba(255, 255, 255, 0.844);
+  border-width: 10px;
+  border: 3px solid #cecdcd;
+  transition: background 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  margin-top: -50px;
+}
+.cashappbutton:hover {
+  background-color: rgba(180, 178, 178, 0.738);   
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px #ffffff;
+}
+.cashappbuttonbox {
+  transform: scale(1.1);
+  margin-top: 30px;
+}
+.cashappbuttonbox:hover {
+  transform: translateY(-1px);
+
+}
+
+.cashapplogoimage {
+width: 30%;
+margin-bottom: -7px;
+}
+
+/* DISCORD BUTTON*/
+
+.discordbutton {
+  background-color: rgba(0, 0, 0, 0.258);
+  border-radius: 8px;
+  padding:  50px 15px 16px 15px;
+  border-color: rgba(255, 255, 255, 0.844);
+  border-width: 10px;
+  border: 3px solid #cecdcd;
+  transition: background 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  margin-top: -70px;
+}
+.discordbutton:hover {
+  background-color: rgb(180, 178, 178, 0.738);   
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px #ffffff;
+}
+.discordbuttonbox {
+  transform: scale(1.1);
+  width: 210px;
+  margin-top: 60px;
+}
+.discordbuttonbox:hover {
+  transform: translateY(-1px);
+
+}
+
+.discordlogoimage {
+  width: 30%;
+  margin-bottom: -7px;
+}
+
+
+/* IG BUTTON */
+.igbutton {
+  background-color: rgba(0, 0, 0, 0.258);
+  border-radius: 8px;
+  border-color: rgba(255, 255, 255, 0.844);
+  border-width: 10px;
+  border: 3px solid #cecdcd;
+  transition: background 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.igbutton:hover {
+  background-color: rgba(180, 178, 178, 0.738);   
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px #ffffff;
+}
+.igbuttonbox {
+  transform: scale(1);
+  margin-top: 30px;
+}
+.igbuttonbox:hover {
+  transform: translateY(-1px);
+
+}
+
+.igimage {
+width: 30%;
+padding-top: 30px;
+margin-bottom: -50px;
+}
+
+
+   
+    .button-box {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .spotify-box {
+      width: 600px;
+    }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Javier G</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="sidebarv2.css">
+       <style>
+           body, html {
+    height: 100%;
+  }
+        </style>
+       </head>
+    <body>
+
+      <nav id="mySidenav" class="sidebar">
+        <!--top div is sidebar entire, rest below are for icons-->
+        <div class="sidebar-link">
+          <a href="index.html"><img src="Icons/corona7.png"></a>
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <a href="https://xelestic.dev" target="_blank"><img src="Icons/mexi.png"></a>
+          <div>Developer</div>
+        </div>
+        <div class="sidebar-link">
+          <a href="page3.html"><img src="Icons/houston1.webp"></a>
+          <div>Socials</div>
+        </div>
+    <!--bottom div is for ending of entire sidebar, div on top is for sidebar icons-->
+      </nav>
+      <div id="main">
+        <span style="cursor:pointer">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </span>
+      </div>
+
+      <audio autoplay id="bgAudio" src="audio/Luis R Conriquez x Tito Double P - Sin Tanto Royo [Audio Oficial 2023].mp3">
+        <source src="audio/Luis R Conriquez x Tito Double P - Sin Tanto Royo [Audio Oficial 2023].mp3"audio/mpeg"> 
+        </audio>
+        <div class="image"></div>
+        
+        <section class="profilesection">
+          <div class="profile-grid">
+    
+            <div class="section-picture">
+              <img class="profile-picture" src="background6/maskpfp.jpg">
+              <p class="profile-name">Javier G.</p> 
+              <div class="verification-box"><image class="verification" src="background6/verification.gif"></image></div>
+              <p class="profile-title">(Hard Worker)</p>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section class="buttons">
+     
+            <div class="button-box">
+              <div class="cashappbuttonbox"> 
+                <a class="cashappbutton" href="https://cash.app/$4x4javier" target="_blank">
+                  <image class="cashapplogoimage" src="Icons/cashappv88.png"></image>
+                </a>
+              </div>
+              <div class="discordbuttonbox">
+                <a class="discordbutton" href="https://www.snapchat.com/add/btxjavier24?invite_id=4teZDa4D&locale=en_US&share_id=gQNQQ-r3SISrLebKosGSeA&sid=0cd2f20b96fc44d18bae9577f589ed87" target="_blank">
+                  <image class="discordlogoimage" src="Icons/snapv77.png"></image>
+                </a>
+              </div>
+              <div class="igbuttonbox"> 
+                <a class="igbutton" href="https://www.instagram.com/4x4javier/" target="_blank">
+                  <image class="igimage" src="Icons/igv88.png"></image>
+                </a>
+              </div>
+            </div>
+        
+        </section>
+        
+        <script>
+          function myFunction(x) { document.getElementById("mySidenav").classList.toggle("open");
+    x.classList.toggle("change");
+}
+
+        var audio = document.getElementById("bgAudio");
+            audio.volume = 0.04;
+        var audio = document.getElementById("bgAudio").loop = true;
+        </script>
+    </body>
+</html>
